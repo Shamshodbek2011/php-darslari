@@ -38,6 +38,69 @@ print_r( $user) ;
 
 
 
+// 05.11
+//remove arrays
+$son = [] ;
+$son[] = 1;
+$son[] = 15;
+$son['ism'] = "Ali";
+print_r($son);
+$cars = ["brand"=>"Ford","model"=>"Mustang","year"=>1987];
+foreach($cars as $x =>$y ){
+    echo "$x : $y <br>";
+
+}
+$cars = ["brand"=>"Ford","model"=>"Mustang"];
+$cars +=["color"=>"red","year"=>1987];
+
+$sonlar1 = [1,34,345,334,233,"test"];
+array_splice($sonlar1,1,3);
+print_r($sonlar1);
+// Sorting
+$son = [23,2,345,345,45,456,496,67,4,67,87,4,2,567,];
+sort($son);
+rsort($son);
+print_r($son);
+
+//Multidimensional massiv
+
+$cars = [
+    ["brand"=>"Ford","model"=>"Mustang","year"=>1987],
+    ["brand"=>"bmv","model"=>"M5","year"=>1997],
+    ["brand"=>"chevrolet","model"=>"nexia2","year"=>2007],
+];
+echo $cars[0]['model']."\n";
+echo $cars[1]['model']."\n";
+for($i = 0;$i < count($cars);$i++){
+    foreach($cars as $item){
+        echo $item." ";
+    }
+    echo "\n";
+}
+$sonl = [12,23,34,36,57,92,93,1,5,9,50];
+foreach($sonl as $item){
+    if($item %2 == 0){
+        echo $item;
+    }
+}
+$sonla = [2,3,4,54,23,232,29,28,28,67,21];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
