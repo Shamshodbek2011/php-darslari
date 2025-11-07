@@ -83,7 +83,6 @@ foreach($sonl as $item){
         echo $item;
     }
 }
-$sonla = [2,3,4,54,23,232,29,28,28,67,21];
 
 
 
