@@ -1,6 +1,6 @@
 <?php
 $foydalanuvchilar = [
-    ["ism"=> "Shamshodbek",'familiya'=>"Sadullayev",'Kasbi'=>"Dasturchi",'bahosi'=>"7.0"],
+    ["ism"=> "Shamshodbek",'familiya'=>"Sadullayev",'Kasbi'=>"Dasturchi",'bahosi'=>"9.0"],
     ["ism"=> "Muslim",'familiya'=>"Vapoyev",'Kasbi'=>"Doktor",'bahosi'=>"7.5"],
     ["ism"=> "Ramazon",'familiya'=>"Ramazonev",'Kasbi'=>"menejer",'bahosi'=>"8.0"],
    
@@ -103,7 +103,6 @@ $foydalanuvchilar = [
             </tr>
             <?php endforeach; ?>
         </tbody>
-        <?php 
         
         
         
@@ -120,7 +119,7 @@ $foydalanuvchilar = [
         
         
         
-        ?>
+
     </table>
 
 </body>
