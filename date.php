@@ -1,0 +1,24 @@
+<?php  
+date_default_timezone_set("Asia/Tashkent");
+echo "Xozirgi vaqt: " . date("Y-m-d"). "<br>";
+echo "Xozirgi vaqt: " . date("Y.m.d"). "<br>";
+echo "Xozirgi vaqt: " . date("Y m d"). "<br>";
+echo "Xozirgi vaqt: " . date("Y/m.d"). "<br>";
+echo "Xozirgi vaqt: " . date("d.m.Y"). "<br>";
+echo "Xozirgi vaqt: " . date("m.Y"). "<br>";
+echo "Xozirgi vaqt: " . date("Y"). "<br>";
+echo "Xozirgi vaqt: " . date("d"). "<br>";
+echo "Xozirgi vaqt: " . date("y-m-d"). "<br>";
+echo "Xozirgi vaqt: " . date("d-m-y"). "<br>";
+echo "Xozirgi vaqt: " . date("d.m.y"). "<br>";
+echo "Xozirgi vaqt: " . date("d.M.y"). "<br>";
+echo "Xozirgi vaqt: " . date("d.F.y"). "<br>";
+echo "Xozirgi vaqt: " . date("d.F.Y"). "<br>";
+echo "Xozirgi vaqt: " . date("D d.m.y"). "<br>";
+echo "Xozirgi vaqt: " . date(" l.m.Y"). "<br>";
+echo "Xozirgi vaqt: " . date(" l"). "<br>";
+echo "Xozirgi vaqt: " . date(" H:i:s"). "<br>";
+echo "Xozirgi vaqt: " . date(" H:i"). "<br>";
+echo "Xozirgi vaqt: " . date(" H:i:s a"). "<br>";
+echo "Xozirgi vaqt: " . date(" h:i:s a"). "<br>";
+echo "Xozirgi vaqt: " . date("Y-m-d H:i:s a"). "<br>";
