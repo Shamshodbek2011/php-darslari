@@ -1,0 +1,58 @@
+/* Umumiy style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Banner / Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://picsum.photos/1200/500') center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* About page style */
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: rgb(17, 62, 197);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+}

@@ -22,3 +22,13 @@ echo "Xozirgi vaqt: " . date(" H:i"). "<br>";
 echo "Xozirgi vaqt: " . date(" H:i:s a"). "<br>";
 echo "Xozirgi vaqt: " . date(" h:i:s a"). "<br>";
 echo "Xozirgi vaqt: " . date("Y-m-d H:i:s a"). "<br>";
+//17.11.2025
+
+echo "Unix time <br>";
+echo "Xozirgi vaqt:". time()."<br>";
+echo "Xozirgi vaqt:". date("Y.m.d H:i:s",time())."<br>";
+echo "Xozirgi vaqt:".strtotime("-2025 years") . "<br>";
+echo "Xozirgi vaqt:".date("Y-m-d H:i:s",strtotime("-2025 years")) ."<br>";
+echo "Xozirgi vaqt:".date("Y-m-d H:i:s",strtotime("11.11.2025")) ."<br>";
+echo "Xozirgi vaqt:".date("Y-m-d H:i:s",strtotime("next year")) ."<br>";
+echo "Xozirgi vaqt:".date("Y-m-d H:i:s",strtotime("-13 years,-9 month ,-2 days ")) ."<br>";
