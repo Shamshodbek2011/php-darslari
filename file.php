@@ -1,5 +1,5 @@
 <?php
-//Fayl;dan malumotlarni oqish
+//Faylydan malumotlarni oqish
 $file = fopen("taxt.txt","r");
 $content = fread($file,filesize("taxt.txt"));
 fclose( $file);
